@@ -1,0 +1,56 @@
+@media(min-width:768px){
+body{
+	color:white;
+	background-color:black;
+	font-family:georgia;
+	text-align: center;
+}
+h1{
+	text-decoration:underline;
+	text-shadow:2px 2px red;
+}
+h2{
+	text-shadow:2px 1px yellow;
+	text-decoration:underline;
+}
+h3{
+	text-shadow:2px 2px blue;
+}
+ul.a{
+	list-style-type:circle;
+}
+.column{
+	display:flex;
+	justify-content:space-between;
+	border:1px #black;
+	padding:10px;
+	flex-basis:27%;
+	
+}
+.experience{
+	flex:1;
+	order:1;
+	margin:10px;
+	font-size:15px;
+}
+.education{
+	flex:1;
+	order:3;
+	margin:10px;
+	font-size:15px;
+}
+.biography{
+	flex:1;
+	order:2;
+	margin:10px;
+	font-size:15px;
+}
+.headshot{
+	width:50px;
+	height:80px;
+}
+img{
+	width:300px;
+	height:350px;
+}
+}
